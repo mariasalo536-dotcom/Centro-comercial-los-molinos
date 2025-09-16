@@ -8,6 +8,10 @@ margin: 10px;
 padding: 15px;
 gap: 10px;
 font-size: 23px;
+background-color: rgba(126, 192, 216, 0.654);
+color: #000;
+
+
 
 
 
@@ -22,21 +26,23 @@ font-size: 23px;
 }
 body{
 background: #d1e5eb;
-background: linear-gradient(90deg, rgba(209, 229, 235, 0.87) 19%, rgba(65, 106, 196, 0.87) 78%);
+background: linear-gradient(90deg, rgba(209, 229, 235, 0.87) 19%, rgba(213, 226, 227, 0.87) 78%);
     
 }
 .navbar{
-    background-color:#1d3ed3a6;
+    background-color:rgba(116, 192, 219, 0.697);
     margin: 10px;
     padding: 5px;
-    
- 
-    
+    margin-left: 300px;
+    color: #000;
+   
 
 }
 
 .text{
     font-size: 18px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 footer.footer {
     background-color: #1a1a1a; /* fondo oscuro */
@@ -95,4 +101,22 @@ body {
 
 main {
     flex: 1; /* Empuja el footer al fondo */
+}
+.carrusel{
+    width: 1600px; 
+    height: 1300px; 
+}
+.cuadro2{
+    height: 40px;
+    width: 100px;
+
+}
+.navbar a{
+
+    color: #000;
+    text-decoration: none;
+}
+.textos{
+    margin-left: 500;
+    margin-right: 500;
 }
